@@ -5,10 +5,24 @@
 
 - Usage:
 ```bash
-git clone 
-cd 
+git clone https://github.com/Aviksaikat/git-puller.git
+cd git-puller
 chmod +x git_pull.sh
 ./git_pull.sh <directory>
+```
+
+- Requirements:
+- Debian/Ubuntu
+```
+sudo apt-get install -y lolcat
+```
+- Arch
+```
+see this https://github.com/jaseg/lolcat
+```
+- Snap
+```
+sudo snap install lolcat-c
 ```
 
 P.S: If you're using ssh keys for git then this will prompt for your password in case of you'r own repos
